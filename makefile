@@ -1,0 +1,17 @@
+OBJS = main.o SystolicArray.o
+CC = g++
+DEBUG = -g -O3 -std=c++11
+CFLAGS = -Wall -c $(DEBUG)
+LFLAGS = -Wall $(DEBUG)
+
+runTPU : $(OBJS)
+	$(CC) $(LFLAGS) $(OBJS) -o runTPU
+
+main.o : main.cpp SystolicArray.cpp SystolicArray.hpp
+	$(CC) $(CFLAGS) main.cpp
+
+SystolicArray.o : SystolicArray.cpp SystolicArray.hpp pstream.h
+	$(CC) $(CFLAGS) SystolicArray.cpp
+
+clean:	
+	\rm *.o runTPU

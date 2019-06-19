@@ -1,0 +1,9 @@
+set activ 12
+set weight 155
+set prev_mac_o 2125
+pl
+set activ 14
+set weight 155
+set prev_mac_o 2455
+pl
+quit
