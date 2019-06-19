@@ -1,10 +1,10 @@
 # TPU Systolic Array Simulator
 
-******  ******  *    *       * * *  *****  *     *
-  *     *    *  *    *       *        *    * * * *
-  *     ******  *    *  ***  * * *    *    *  *  *
-  *     *       *    *           *    *    *     *
-  *     *       ******       * * *  *****  *     *
+xxxxxx  xxxxxx  x    x       x x x  xxxxx  x     x
+  x     x    x  x    x       x        x    x x x x
+  x     xxxxxx  x    x  xxx  x x x    x    x  x  x
+  x     x       x    x           x    x    x     x
+  x     x       xxxxxx       x x x  xxxxx  x     x
 
 AUTHOR: PRABAL BASU (prabalb@aggiemail.usu.edu)
  
