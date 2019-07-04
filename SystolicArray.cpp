@@ -280,6 +280,7 @@ bool Utils::willEncounterTimingError(MACUnit *mac) {
 
 #endif
 
+  /*
   num_sta_tool_invoked++;
   std::string sta_tool_cmd_line;
   getStaToolCmdLine(sta_tool_cmd_line, mac);
@@ -296,6 +297,7 @@ bool Utils::willEncounterTimingError(MACUnit *mac) {
   }
   updateErrorLUT(row, col);
   return willEncounterTimingError;
+  */
 }
 
 bool Utils::canGreenTPUAvoidTimingError(MACUnit *mac) {

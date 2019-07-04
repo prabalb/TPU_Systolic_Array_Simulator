@@ -20,7 +20,7 @@ using namespace std;
 
 #define DETAILED_SIM
 #define GUIDED_SIM
-#define SKIP_STA_TOOL
+#define SKIP_STA_TOOL // never comment out this macro
 
 //#define TEP
 #define TE_DROP
